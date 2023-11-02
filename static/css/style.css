@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 .head {
     background-color: rgb(95,109,146);
     padding: 10px;
@@ -26,6 +30,7 @@ body {
 .footer a {
     text-decoration: none;
     color: grey;
+    transition: all 0.2s;
 }
 
 .footer a:hover {
@@ -38,4 +43,20 @@ body {
 
 .login-btn:hover, .cart-shop:hover {
     cursor: pointer;
+}
+
+.navigation_panel {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.navigation_panel li {
+    margin-right: 10px;
+    transition: all 0.2s;
+}
+
+.navigation_panel li:hover {
+    cursor: pointer;
+    color: rgb(95,109,146);
 }
